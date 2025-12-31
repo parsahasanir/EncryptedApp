@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'yekanbakh';
+  src: url("./assets/fonts/YekanBakh-Regular.woff2") format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'yekanbakh';
+  src: url("./assets/fonts/YekanBakh-Bold.woff2") format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+.default_text {
+  font-family: monospace;
+}
+
+html,body {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  font-family: 'yekanbakh', sans-serif !important;
+  scroll-padding-top: 120px;
+}
